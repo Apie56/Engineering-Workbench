@@ -158,7 +158,7 @@ The project is being developed using a documentation-first approach, where produ
 * ⏳ Engineering modules
 * ⏳ Public alpha release
 
-For a more detailed roadmap, see `docs/roadmap.md`.
+For a more detailed roadmap, see `docs/development-roadmap.md`.
 
 ---
 
@@ -167,6 +167,20 @@ For a more detailed roadmap, see `docs/roadmap.md`.
 Engineering Workbench is being developed as an open-source project with a strong emphasis on software quality, engineering accuracy, and maintainability.
 
 Contribution guidelines will be published as the project matures.
+
+---
+
+## Development Status
+
+Engineering Workbench is now in the first Engineering Kernel sprint. The initial Python domain model represents Projects, Workspaces, Modules, Tools, Resources, and reusable Knowledge. Persistence, calculations, and the user interface intentionally follow in later milestones.
+
+### Run the tests
+
+Python 3.11 or newer is required.
+
+```powershell
+python -m unittest discover -s tests -v
+```
 
 ---
 
